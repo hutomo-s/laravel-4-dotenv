@@ -119,8 +119,7 @@ DB_USERNAME=homestead
 DB_PASSWORD=secret
 ```
 
-Call them in configuration file
-``` app/config/database.php```
+Call them in configuration file ``` app/config/database.php``` and replace the mysql section with this lines. **But please be careful!**
 
 ```
 'mysql' => array(
